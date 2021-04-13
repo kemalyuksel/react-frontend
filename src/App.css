@@ -36,3 +36,75 @@
     transform: rotate(360deg);
   }
 }
+
+
+.formElement{
+  border-style: groove;
+  border-width: 1px;
+  margin:auto;
+  position: relative;
+  width: 400px;
+  padding: 5px;
+  background-color: darkslategray;
+  border-radius: 15px;
+}
+
+.formInput{
+  margin: 5px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.formLabel{
+  font-size: small;
+  color: white;
+}
+
+.btn{
+  background-color:black;
+  color: white;
+  border-style: groove;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 10px;
+  width: 150px;
+}
+
+.btn:hover{
+  background-color:white;
+  color: black;
+}
+
+.tbl{
+  width: 300px;
+  height: auto;
+  margin:auto;
+  position: relative;
+  border-style: ridge;
+  border-width: 3px;
+  border-color: rgb(16, 24, 23);
+  margin-top: 5px;
+  padding:5px;
+  border-radius: 10px;
+  background-color: rgb(27, 122, 0);
+  color: white;
+}
+
+.btn-delete{
+  background-color:rgb(134, 86, 86);
+  color: white;
+  border-style: groove;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100px;
+  height: 25px;
+}
+
+.btn-delete:hover{
+  background-color:white;
+  color: red;
+}
+
+.head{
+  font-weight: bold;
+}
